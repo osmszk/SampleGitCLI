@@ -1,0 +1,7 @@
+### HomebrewでGitインストール
+- もしHomebrew未インストールだったら今すぐインストール！https://brew.sh/
+- `brew install git`
+- ~/.bash_profileに追記 `export PATH="/usr/local/Cellar/git/2.5.0/bin:$PATH"`
+
+### 日本語文字化け回避
+- `git config --global core.quotepath false`
